@@ -6,9 +6,23 @@
 //
 
 #include <iostream>
+#include "sum.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+using namespace std;
+
+int main()
+{int num, num1;
+    
+    menu();
+    
+    cout<<"enter a number"<<endl;
+    cin>>num;
+    
+    cout<<"enter another number"<<endl;
+    cin>>num1;
+    
+    cout<<"sum is"<<sumofrange(num, num1);
+    
+    
     return 0;
 }
